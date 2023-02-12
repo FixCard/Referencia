@@ -1,0 +1,6 @@
+﻿  Source.cpp
+C:\Users\lazlo\Desktop\Dungeon Clearer THE GAME\Source.cpp(13,5): error C2632: 'int' followed by 'void' is illegal
+C:\Users\lazlo\Desktop\Dungeon Clearer THE GAME\Source.cpp(13,10): error C2059: syntax error: ')'
+C:\Users\lazlo\Desktop\Dungeon Clearer THE GAME\Source.cpp(14,1): error C2143: syntax error: missing ';' before '{'
+C:\Users\lazlo\Desktop\Dungeon Clearer THE GAME\Source.cpp(14,1): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\lazlo\Desktop\Dungeon Clearer THE GAME\Source.cpp(135,38): warning C4390: ';': empty controlled statement found; is this the intent?
