@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B8BAB7"
+    tools:context=".SettingsFragment">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="10dp"
+        android:text="Beállítások"
+        android:textColor="#000000"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="---"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/osszegbeallit" />
+
+    <Button
+        android:id="@+id/avatarbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Avatár változtatás"
+        app:layout_constraintEnd_toEndOf="@+id/avatarimage"
+        app:layout_constraintStart_toStartOf="@+id/avatarimage"
+        app:layout_constraintTop_toBottomOf="@+id/avatarimage" />
+
+    <ImageView
+        android:id="@+id/avatarimage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        tools:src="@drawable/avatar1" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="---"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/avatarbtn" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:text="Kilépés az alkalmazásból"
+        app:layout_constraintEnd_toEndOf="@+id/nevbutton"
+        app:layout_constraintStart_toStartOf="@+id/nevbutton"
+        app:layout_constraintTop_toBottomOf="@+id/nevbutton" />
+
+    <Button
+        android:id="@+id/nyilatkozatbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:text="Jogi nyilatkozat"
+        app:layout_constraintEnd_toEndOf="@+id/torlesbutton"
+        app:layout_constraintStart_toStartOf="@+id/torlesbutton"
+        app:layout_constraintTop_toBottomOf="@+id/torlesbutton" />
+
+    <Button
+        android:id="@+id/nevbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:text="Alkalmazás névjegye"
+        app:layout_constraintEnd_toEndOf="@+id/nyilatkozatbutton"
+        app:layout_constraintStart_toStartOf="@+id/nyilatkozatbutton"
+        app:layout_constraintTop_toBottomOf="@+id/nyilatkozatbutton" />
+
+    <Button
+        android:id="@+id/osszegmentes"
+        android:layout_width="129dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="20dp"
+        android:text="Összeg beállítása"
+        app:layout_constraintBottom_toBottomOf="@+id/osszegbeallit"
+        app:layout_constraintStart_toEndOf="@+id/osszegbeallit"
+        app:layout_constraintTop_toTopOf="@+id/osszegbeallit" />
+
+    <EditText
+        android:id="@+id/osszegbeallit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:text=""
+        android:hint="Összeg"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/torlesbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:text="Adatok törlése"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <Button
+        android:id="@+id/avatarmentes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="Mentés"
+        app:layout_constraintBottom_toBottomOf="@+id/avatarimage"
+        app:layout_constraintStart_toEndOf="@+id/avatarimage"
+        app:layout_constraintTop_toTopOf="@+id/avatarimage" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
