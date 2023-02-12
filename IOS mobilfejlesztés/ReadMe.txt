@@ -1,0 +1,1 @@
+Ez az alkalmazás egy listás nézetet valósít meg, egy weboldalról lekéri az adatokat, és megjeleníti azt. Illetve rendelkezik egy részletes nézettel miután rákattintunk.
