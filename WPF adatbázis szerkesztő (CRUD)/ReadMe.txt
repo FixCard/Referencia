@@ -1,0 +1,2 @@
+Az adatbázis meghívására a Microsoft SQL Server Management Studio 18-t használtam.
+Az alkalmazás lefuttatása után a belépéshez szükséges a mellékelt adatbázisokat importálni illetve, hogy az adatbázisban tudjunk szerkeszteni.

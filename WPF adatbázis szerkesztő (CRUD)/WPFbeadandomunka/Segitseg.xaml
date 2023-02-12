@@ -1,0 +1,14 @@
+﻿<Window x:Class="WPFbeadandomunka.Segitseg"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFbeadandomunka"
+        mc:Ignorable="d"
+        Title="Segitseg" Height="450" Width="700">
+    <Grid>
+        <Button x:Name="bezarasbtn" Content="Bezárás" HorizontalAlignment="Center" Margin="0,363,0,0" VerticalAlignment="Top" Height="37" Width="100" FontSize="20" FontWeight="Bold" Click="bezarasbtn_Click"/>
+        <Image HorizontalAlignment="Center" Height="324" Margin="0,24,0,0" VerticalAlignment="Top" Width="634" Source="/kep.png"/>
+
+    </Grid>
+</Window>

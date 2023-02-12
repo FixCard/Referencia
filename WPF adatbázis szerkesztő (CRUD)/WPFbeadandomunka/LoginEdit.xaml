@@ -1,0 +1,25 @@
+﻿<Window x:Class="WPFbeadandomunka.LoginEdit"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFbeadandomunka"
+        mc:Ignorable="d"
+        Title="Bejelentkezési adatok módosítása" Height="500" Width="1000">
+    <Grid>
+        <Button x:Name="rogzitesbtn2" Content="Rögzítés" HorizontalAlignment="Left" Margin="418,355,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Height="50" Width="100" Click="rogzitesbtn2_Click" RenderTransformOrigin="1.057,0.529" Background="#FF3FE241"/>
+        <Button x:Name="frissitesbtn2" Content="Frissítés" HorizontalAlignment="Left" Margin="567,355,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Height="50" Width="100" Click="frissitesbtn2_Click" Background="#FF5396EF"/>
+        <Button x:Name="torlesbtn2" Content="Törlés" HorizontalAlignment="Left" Margin="716,355,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Height="50" Width="100" Click="torlesbtn2_Click" Background="#FFE21212"/>
+        <Button x:Name="resetbtn2" Content="Reset" HorizontalAlignment="Left" Margin="862,355,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Height="50" Click="resetbtn2_Click" Width="100"/>
+        <Button x:Name="bezarasbtn2" Content="Bezárás" HorizontalAlignment="Left" Margin="148,373,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Height="50" Click="bezarasbtn2_Click" Width="100" Background="#FFA9A1A1" RenderTransformOrigin="0.754,0.498"/>
+        <Label Content="Felhasználónév:" HorizontalAlignment="Left" Margin="25,77,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
+        <Label Content="Jelszó:" HorizontalAlignment="Left" Margin="25,129,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.598,0.807" FontSize="18" FontWeight="Bold"/>
+        <Label Content="ID:" HorizontalAlignment="Left" Margin="25,254,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
+        <TextBox x:Name="felhasznalonev_txt" HorizontalAlignment="Left" Margin="190,85,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" FontSize="18"/>
+        <TextBox x:Name="jelszo_txt" HorizontalAlignment="Left" Margin="190,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" FontSize="18"/>
+        <TextBox x:Name="kereses2_txt" HorizontalAlignment="Left" Margin="190,258,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" FontSize="18"/>
+        <DataGrid x:Name="datagrid2" Margin="418,67,38,164" VerticalAlignment="Top" Height="250"/>
+        <Label Content="Bejelentkezési adatok módosítása" HorizontalAlignment="Left" Margin="25,30,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
